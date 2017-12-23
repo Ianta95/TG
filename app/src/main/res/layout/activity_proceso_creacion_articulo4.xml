@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja"
+    android:orientation="vertical"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.ProcesoCreacionArticulo4">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_exit_proceso3"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/exit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="0dp"
+            android:text="Selecciona un rango de precio:"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/Edit_Text_Seleccion_Rango"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:cursorVisible="false"
+            android:enabled="false"
+            android:text=" $0.00"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_seleccionar_rango"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="Seleccionar" />
+
+    </LinearLayout>
+
+
+    <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="30dp"
+            android:text="Guardar Articulo"
+            android:background="@color/azulclaro"
+            android:id="@+id/view_boton_guardar_fase4"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:drawableRight="@drawable/end"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+
+
+
+
+</LinearLayout>

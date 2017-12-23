@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/image_view_image_holder"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/naranja"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <TextView
+            android:background="@drawable/borde"
+            android:id="@+id/txt_view_Titulo_Holder"
+            android:layout_width="match_parent"
+            android:layout_height="70sp"
+            android:textStyle="bold"
+            android:text="Titulo Publicacion Catalogo"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txt_view_Rango_Holder"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="16sp"
+                android:text="Rango: $9000"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image_view_icon_holder"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3px"
+        android:background="@color/black"
+        >
+
+    </View>
+
+</LinearLayout>

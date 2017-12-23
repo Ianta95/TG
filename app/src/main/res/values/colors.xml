@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0ca7ac</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="naranja">#ff8b56</color>
+    <color name="white">#ffffff</color>
+    <color name="backgroundperfil">#438ffa</color>
+    <color name="azulclaro">#4bcdf9</color>
+    <color name="black">#232323</color>
+    <color name="verdeok">#91fd71</color>
+    <color name="rojo">#ff1100</color>
+    <color name="greenprice">#a2f758</color>
+    <color name="naranjaclaro">#c1fd8020</color>
+    <color name="rojoclaro">#90ff1100</color>
+    <color name="amarillo">#90fcdf09</color>
+</resources>

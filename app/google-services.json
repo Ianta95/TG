@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "641661451764",
+    "firebase_url": "https://trueque-de-garage.firebaseio.com",
+    "project_id": "trueque-de-garage",
+    "storage_bucket": "trueque-de-garage.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641661451764:android:7adc2e610acea7d1",
+        "android_client_info": {
+          "package_name": "com.example.jesus95.truequedegarage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641661451764-p9p82aagbeuf7fbqht113gffgtfftddc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr1T9J0ecclV_URNC6SRmnY29DBTSnLxA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

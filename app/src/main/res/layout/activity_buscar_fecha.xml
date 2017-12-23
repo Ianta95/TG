@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja"
+    android:orientation="vertical"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.BuscarFecha">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_exit_buscar_fecha"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/exit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Busqueda por Fecha:"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_fecha_actual_buscar_fecha"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/graybackgroundbutton"
+        android:drawableLeft="@drawable/day"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="07-09 (FECHA ACTUAL)"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_mes_actual_buscar_fecha"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/graybackgroundbutton"
+        android:drawableLeft="@drawable/day"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="09 (MES ACTUAL)"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>

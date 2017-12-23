@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/naranja"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.CreacionIntercambios">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <Button
+            android:id="@+id/btn_exit_creacion_intercambios"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/exit" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREAR INTERCAMBIOS"
+            android:textSize="30sp"
+            android:paddingStart="20dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ProgressBar
+            android:id="@+id/vertical_progressbar_creacion_intercambios"
+            style="@style/Widget.ProgressBar.Vertical"
+            android:layout_width="10dip"
+            android:layout_height="300dip"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            android:progress="0" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="310dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_gravity="top"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:text="$100,000"
+                android:layout_width="60dp"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:layout_weight="8"
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:text="$100,000"
+                android:layout_width="60dp"
+                android:layout_height="20dp" />
+
+            <ImageView
+                android:layout_weight="8"
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:layout_gravity="bottom"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:text="$100,000"
+                android:layout_width="60dp"
+                android:layout_height="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_view_1_creacion_intercambios"
+                android:background="@drawable/borde"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <ImageView
+                android:id="@+id/image_view_0_creacion_intercambios"
+                android:layout_marginTop="45dp"
+                android:layout_marginBottom="45dp"
+                android:background="@drawable/borde"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+            <ImageView
+                android:id="@+id/image_view_2_creacion_intercambios"
+                android:background="@drawable/borde"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/changecenterimage3"
+            android:layout_width="80dp"
+            android:layout_height="80dp" />
+
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:background="@drawable/borde"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal">
+
+            <EditText
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:background="@color/naranjaclaro"
+                android:text="Escribe un mensaje aqui" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:textColor="@color/black"
+            android:text="0/150"
+            android:layout_width="80dp"
+            android:layout_height="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/buttonverdeokpropuesta"
+                android:text="ENVIAR PROPUESTA" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

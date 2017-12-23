@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/naranja"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.BuscarRango">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_exit_buscar_rango"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/exit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:text="Escoge un Rango de precio:"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_menosde1_buscar_rango"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/greenbackgroundbutton"
+        android:drawableLeft="@drawable/tagprice"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="$100-$1000"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:id="@+id/txt_view_menosde1_buscar_rango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ARTICULOS"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_entre1y5_buscar_rango"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/greenbackgroundbutton"
+        android:drawableLeft="@drawable/tagprice"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="$1000-$5000"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txt_view_entre1y5_buscar_rango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ARTICULOS"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_masde5_buscar_rango"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:background="@drawable/greenbackgroundbutton"
+        android:drawableLeft="@drawable/tagprice"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="$5000+"
+        android:textSize="25sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/txt_view_masde5_buscar_rango"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0 ARTICULOS"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btn_personalizado_buscar_rango"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/greenbackgroundbutton"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:text="Personalizado"
+        />
+
+</LinearLayout>

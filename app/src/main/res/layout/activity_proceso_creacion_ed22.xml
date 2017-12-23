@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja"
+    android:fillViewport="true"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.ProcesoCreacionEd22">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_exit_proceso_ed2_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/exit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Escriba un titulo:"
+            android:textColor="@color/white"
+            android:textSize="36sp" />
+
+    </LinearLayout>
+
+        <EditText
+            android:id="@+id/Edit_Text_Titulo_ed2_2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@color/white"
+            android:maxLength="40"
+            android:singleLine="true"
+            android:hint="Titulo de la publicacion" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Seleccionar fotos:"
+            android:textColor="@color/white"
+            android:textSize="33sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <ImageView
+                android:id="@+id/image_view_ed2_0"
+                android:src="@drawable/agregarfoto"
+                android:layout_marginStart="10dp"
+                android:layout_width="70dp"
+                android:layout_height="90dp" />
+
+            <ImageView
+                android:id="@+id/image_view_ed2_1"
+                android:src="@drawable/agregarfoto"
+                android:layout_marginStart="10dp"
+                android:layout_width="70dp"
+                android:layout_height="90dp" />
+
+            <ImageView
+                android:id="@+id/image_view_ed2_2"
+                android:src="@drawable/agregarfoto"
+                android:layout_marginStart="10dp"
+                android:layout_width="70dp"
+                android:layout_height="90dp" />
+
+            <ImageView
+                android:id="@+id/image_view_ed2_3"
+                android:src="@drawable/agregarfoto"
+                android:layout_marginStart="10dp"
+                android:layout_width="70dp"
+                android:layout_height="90dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Descripcion del Articulo:"
+            android:textColor="@color/white"
+            android:textSize="33sp" />
+
+        <EditText
+            android:id="@+id/edit_text_descripcion_articulo_ed2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:imeActionLabel="CONTINUAR"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:lines="5"
+            android:maxLength="150"
+            android:maxLines="7" />
+
+        <TextView
+            android:id="@+id/TextViewContador_ed2"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:text=" 0/150"
+            android:textSize="20sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:textAlignment="center"
+                android:id="@+id/Edit_Text_Seleccion_Rango_ed2"
+                android:layout_width="170dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:cursorVisible="false"
+                android:enabled="false"
+                android:text=" $0.00"
+                android:textSize="30sp" />
+
+            <Button
+                android:id="@+id/btn_seleccionar_rango_ed2"
+                android:layout_width="110dp"
+                android:layout_height="50dp"
+                android:background="@color/colorPrimary"
+                android:gravity="center"
+                android:text="Seleccionar" />
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="30dp"
+            android:text="Guardar Articulo"
+            android:background="@color/azulclaro"
+            android:id="@+id/Boton_continuar_ed2"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:drawableRight="@drawable/end"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">TruequedeGarage</string>
+    <string name="btn_login">INICIAR SESION</string>
+    <string name="btn_register">REGISTRATE</string>
+    <string name="tv_politicas">Al usar TRUEQUE DE GARAGE estas aceptando las politicas de privacidad</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="register_welcome">¡Ya casi podemos empezar!, Solo falta un paso mas del registro:</string>
+    <string name="txt_guardar_cel">Guarda un numero movil: </string>
+    <string name="txt_guardar_fijo">Guarda un numero fijo: </string>
+    <string name="txt_boton_numeros">GUARDAR Y CONTINUAR</string>
+    <string name="finalizar_publicacion">La publicacion de tu articulo ha terminado, ahora puedes regresar al menu o ver tu publicacion</string>
+</resources>

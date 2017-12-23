@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/naranja"
+    android:orientation="vertical"
+    tools:context="com.example.jesus95.truequedegarage.Articulos.MenuArticulos">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_exit_menu_articulos"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/exit" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:text="Buscar:"
+                android:textColor="@color/white"
+                android:textSize="36sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_precio_menu_articulos"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/miconprecio"
+                android:layout_marginEnd="10dp"
+                />
+
+            <Button
+                android:id="@+id/btn_categoria_menu_articulos"
+                android:layout_marginStart="10dp"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:background="@drawable/miconcategoria"
+                />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_fecha_menu_articulos"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/miconfecha"
+            android:layout_marginEnd="10dp"
+            />
+
+        <Button
+            android:id="@+id/btn_titulo_menu_articulos"
+            android:layout_marginStart="10dp"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:background="@drawable/micontitulo"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
